@@ -1,0 +1,85 @@
+vietnamcity/
+ ├── index.html
+ ├── style.css
+ └── script.js<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Việt Nam City</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="top">
+
+  <h1>🏳️ Việt Nam City</h1>
+  <p>Túi Mù Free - Cơ hội nhận thần khí</p>
+
+  <div class="account">
+    <span>adminshop</span>
+
+    <button class="vip">👑</button>
+
+    <button class="logout">Đăng xuất</button>
+  </div>
+
+</div>
+
+<div class="main">
+
+  <div class="gift">🎁</div>
+
+  <h2>TÚI MÙ FREE</h2>
+
+  <p>Mở túi miễn phí - Nhận ngay vật phẩm cực chất</p>
+
+  <div class="ratebox">
+
+    <div>💰 Ra Tiền <span>45%</span></div>
+    <div>🤍 Bạch Long <span>25%</span></div>
+    <div>🙏 Như Lai Thần Chưởng <span>15%</span></div>
+    <div>⚡ Giáng Long <span>10%</span></div>
+    <div>⚔️ Bá Vương Kích <span>5%</span></div>
+    <div>🐉 Thanh Long Quyền <span>1%</span></div>
+
+  </div>
+
+  <div class="warning">
+    📸 YÊU CẦU BẮT BUỘC 📸
+    <br><br>
+    CHỤP LẠI BILL ĐƠN HÀNG VÀ GỬI CHO ADMIN XỬ LÝ
+    <br><br>
+    ⚠️ KHÔNG CÓ ẢNH BILL = MẤT ĐƠN ⚠️
+  </div>
+
+  <div class="stats">
+    📦 Hôm nay đã mở: 00 / 00 lần
+  </div>
+
+  <div class="admin">
+    👑 Admin - Không giới hạn số lần mở
+  </div>
+
+  <button class="openBtn" onclick="openBox()">
+    ✨ MỞ TÚI MIỄN PHÍ ✨
+  </button>
+
+  <h2 id="result"></h2>
+
+  <p class="opened">
+    👑 Admin - Tổng đã mở: 57 lần (không giới hạn)
+  </p>
+
+</div>
+
+<footer>
+  © 2025 Việt Nam City |
+  <a href="#">Liên hệ Discord</a>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
